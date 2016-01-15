@@ -82,6 +82,7 @@ public class AutoLable extends ViewGroup {
                 myView.r = lineWidth + viewWidth;
                 myView.t = nowHeight;
                 myView.b = nowHeight + viewHeight;
+                lineWidth = lineWidth+viewWidth;
             }
             lists.add(myView);
             lastViewHeight = Math.max(lastViewHeight,viewHeight);
